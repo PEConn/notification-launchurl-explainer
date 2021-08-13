@@ -77,7 +77,7 @@ We could also add the launchURL field to the [NotificationAction][notification-a
 ```javascript
 var notification = new Notification(“New message”, [
   body: “You have a new message”,
-  launchURL: “https://www.example.com/inbox”
+  launchURL: “https://www.example.com/inbox”,
   actions: [{
     action: “settings”,
     title: “Notification Settings”,
